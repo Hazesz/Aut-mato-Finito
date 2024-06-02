@@ -60,3 +60,23 @@ def main():
 if __name__ == "__main__":
     main()
 }
+
+Para um teste de funcionamento do automato foi utilizado essas entradas:
+ba;1
+aaaabbbbbaaaaa;1
+abababab;0
+bbbbbbbb;0
+aaaaaaaaaaaa;0
+aaaaabaaaaa;1
+
+E consequentemente tivemos o resultado:
+Entrada: ba - Aceita: 0
+Entrada: aaaabbbbbaaaaa - Aceita: 0
+Entrada: abababab - Aceita: 0
+Entrada: bbbbbbbb - Aceita: 0
+Entrada: aaaaaaaaaaaa - Aceita: 0
+Entrada: aaaaabaaaaa - Aceita: 0
+Tempo de execução: 0.0140 segundos
+
+Uma saida que aparentemente não é correspondente ao que deveria ter sido executado, obtendo resultados apenas '0'.
+De forma resumida, eu acredito que isso seja um bug no código para indentificar as saídas como '0' ou '1'.
