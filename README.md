@@ -43,7 +43,7 @@ O automato recebe uma variavel do tipo string e retorna uma saida com base no pr
 }
 
 Função main, lê o arquivo .json e o .csv, começa a marcar o inicio do processamento do automato, compara e marca caso a entrada seja aceita ou não e após isso printa se ela foi aceita ou não. Printa o tempo de execução ao final dos processos e a linha do if garante que o main seja executado apenas se o codigo for executado diretamente.
-
+{
 def main():
     automato = ler_json('ex1/ex1.json')
     entradas = ler_csv('ex1/ex1_input.csv')
@@ -59,3 +59,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+}
